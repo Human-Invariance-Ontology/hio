@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="public">
+  <group id="odk-managed-catalog" prefer="public">
+    <uri name="http://purl.obolibrary.org/obo/hio/imports/ro_import.owl" uri="imports/ro_import.owl" />
+    <uri name="http://purl.obolibrary.org/obo/hio/imports/pato_import.owl" uri="imports/pato_import.owl" />
+    <uri name="http://purl.obolibrary.org/obo/hio/imports/go_import.owl" uri="imports/go_import.owl" />
+    <uri name="http://purl.obolibrary.org/obo/hio/imports/uberon_import.owl" uri="imports/uberon_import.owl" />
+    <uri name="http://purl.obolibrary.org/obo/hio/imports/nbo_import.owl" uri="imports/nbo_import.owl" />
+    <uri name="http://purl.obolibrary.org/obo/hio/imports/envo_import.owl" uri="imports/envo_import.owl" />
+  </group>
+</catalog>

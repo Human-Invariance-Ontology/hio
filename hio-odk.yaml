@@ -1,0 +1,31 @@
+id: hio
+title: "The Human Invariance System Ontology"
+github_org: human-invariance-ontology
+repo: hio
+git_main_branch: main
+documentation:
+  documentation_system: mkdocs
+release_artefacts:
+  - base
+  - full
+  - simple
+primary_release: full
+export_formats:
+  - owl
+  - obo
+  - json
+import_group:
+  products:
+    - id: ro
+    - id: pato
+    - id: go
+    - id: uberon
+    - id: nbo
+    - id: envo
+robot_java_args: "-Xmx8G"
+robot_report:
+  use_labels: TRUE
+  fail_on: ERROR
+  custom_profile: TRUE
+  report_on:
+    - edit
